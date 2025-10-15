@@ -6,6 +6,19 @@
 def randDice():
     # Write your logic to generate 2 numbers between 1 and 6 here
 
+    import random
+
+def randDice():
+    dice1 = random.randint(1, 6)
+    dice2 = random.randint(1, 6)
+    return dice1 + dice2
+
+total_sum = 0
+num_rolls = 100
+
+for _ in range(num_rolls):
+    total_sum += randDice()
+
     # Sum 2 numbers
 
     # return sum to calling function
