@@ -6,7 +6,7 @@
 def randDice():
     # Write your logic to generate 2 numbers between 1 and 6 here
 
-    import random
+import random
 
 def randDice():
     dice1 = random.randint(1, 6)
